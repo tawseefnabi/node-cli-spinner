@@ -1,0 +1,23 @@
+{
+  "name": "node-cli-spinner",
+  "version": "0.0.1",
+  "description": "spinners for use in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "format": "prettier --write \"./**/*.{js,json}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawseefnabi/node-cli-spinner.git"
+  },
+  "author": "tawseef <tawseefnabi9@gmail.com> (https://twitter.com/NabiTowseef)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tawseefnabi/node-cli-spinner/issues"
+  },
+  "homepage": "https://github.com/tawseefnabi/node-cli-spinner#readme",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
