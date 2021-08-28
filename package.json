@@ -6,7 +6,7 @@
     "cli": "index.js"
   },
   "exports": {
-    ".": "index.js"
+    ".": "./index.d.ts"
   },
   "type": "module",
   "files": [
@@ -33,6 +33,7 @@
     "prettier": "^2.3.2"
   },
   "dependencies": {
+    "tsd": "^0.17.0",
     "xo": "^0.44.0"
   }
 }
