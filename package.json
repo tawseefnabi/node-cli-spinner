@@ -6,7 +6,7 @@
     "cli": "index.js"
   },
   "exports": {
-    ".": "./index.d.ts"
+    ".": "./index.js"
   },
   "type": "module",
   "files": [
@@ -15,7 +15,7 @@
     "spinners.json"
   ],
   "scripts": {
-    "test": "ava",
+    "test": "xo && ava && tsd",
     "format": "prettier --write \"./**/*.{js,json}\""
   },
   "repository": {
@@ -30,10 +30,9 @@
   "homepage": "https://github.com/tawseefnabi/node-cli-spinner#readme",
   "devDependencies": {
     "ava": "^3.15.0",
-    "prettier": "^2.3.2"
-  },
-  "dependencies": {
+    "prettier": "^2.3.2",
     "tsd": "^0.17.0",
     "xo": "^0.44.0"
-  }
+  },
+  "dependencies": {}
 }
